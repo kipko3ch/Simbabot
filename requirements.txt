@@ -1,0 +1,6 @@
+pyrogram==2.0.106
+TgCrypto==1.2.5
+python-dotenv==0.19.2
+aiosqlite==0.17.0
+asyncio==3.4.3
+uvloop==0.17.0; sys_platform != "win32"

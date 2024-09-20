@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  bot:
+    build: .
+    volumes:
+      - ./mining_app.db:/app/mining_app.db
+    env_file:
+      - .env
+    restart: always
